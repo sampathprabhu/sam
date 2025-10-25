@@ -1,0 +1,7 @@
+<h2>All Users</h2>
+<div class="card" ng-repeat="user in users">
+  <h3>{{ user.name }}</h3>
+  <p>Email: {{ user.email }}</p>
+  <a href="#!/view/{{user.id}}">View Profile</a>
+  <a href="#!/edit/{{user.id}}">Edit Profile</a>
+</div>
